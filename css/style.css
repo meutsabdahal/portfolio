@@ -83,3 +83,17 @@ body{
 	font-size: 20px;
 }
 /* end navbar */
+
+footer{
+	display: inline-block;
+	width: 100%;
+	background-color: #1B1919;
+	color: white;
+	margin-top: -5px;
+	text-align: center;
+}
+
+footer a, footer a:hover,footer a:focus{
+	color: white;
+	text-decoration: none;
+}
