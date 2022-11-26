@@ -4,7 +4,6 @@ function Footer() {
         <footer className="mt-5 text-center">
             <div className="container">
                 <div className="footer--list">
-
                     
                     <div className="row">
                         <div className="col">
