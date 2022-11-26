@@ -2,12 +2,10 @@ function Header() {
 
     function openNav() {
         document.getElementById("mySideNav").style.width = "100%";
-        // console.log('Working!!')
     }
     
     function closeNav() {
         document.getElementById("mySideNav").style.width = "0";
-        // console.log('Worked!!')
     }
     
 
@@ -27,7 +25,7 @@ function Header() {
                             <a className="nav-link" href="#">BLOG</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">wORKS</a>
+                            <a className="nav-link" href="#">WORKS</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">CONTACT</a>
@@ -43,7 +41,7 @@ function Header() {
                 <a href="javascript:void(0)" className="close" onClick={closeNav}>&times;</a>
                 <a className="nav-link" href="#">ABOUT ME</a>
                 <a className="nav-link" href="#">BLOG</a>
-                <a className="nav-link" href="#">wORKS</a>
+                <a className="nav-link" href="#">WORKS</a>
                 <a className="nav-link" href="#">CONTACT</a>
             </div>
             </nav>

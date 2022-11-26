@@ -1,40 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Cinzel', serif;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cinzel', serif;
 }
 
-body{
+body {
 	max-width: 1440px;
 	margin: 0 auto;
 }
 
-.nav{
-    display: inline-block;
+.nav {
+	display: inline-block;
 	width: 100%;
 	background-color: #1B1919;
 	padding: 0 5%;
 	padding-left: 13.5%;
 }
 
-.navbar--title{
+.navbar--title {
 	position: relative;
 	display: inline-block;
 	padding: 15px 10px;
 }
-.navbar--title p,.navbar--title p:hover,.navbar--title p:focus{
+
+.navbar--title p,
+.navbar--title p:hover,
+.navbar--title p:focus {
 	color: #FFFFFF;
 	font-weight: 900;
 	letter-spacing: 2px;
 }
 
-.navbar--title--under--line{
+.navbar--title--under--line {
 	position: relative;
 	display: inline-block;
 }
-.navbar--title--under--line::after{
+
+.navbar--title--under--line::after {
 	content: " ";
 	border-bottom: 4px solid #018790;
 	width: 65px;
@@ -43,21 +47,25 @@ body{
 	left: 9px;
 }
 
-.navbar--menu{
+.navbar--menu {
 	display: inline-block;
 }
 
-.navbar--menu ul li{
+.navbar--menu ul li {
 	display: inline-block;
 }
 
-.navbar--menu ul li a,.navbar--menu ul li a:focus,.navbar--menu ul li a:hover{
+.navbar--menu ul li a,
+.navbar--menu ul li a:focus,
+.navbar--menu ul li a:hover {
 	display: inline-block;
-    color: white;
+	color: white;
 	margin: 0 5px;
 	padding: 15px 5px;
+	font-weight: 700;
 }
-.navbar--menu--button--side{
+
+.navbar--menu--button--side {
 	cursor: pointer;
 	font-weight: 900;
 	display: inline-block;
@@ -78,7 +86,7 @@ body{
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
-	text-align:center;
+	text-align: center;
 }
 
 .side-nav a {
@@ -91,7 +99,7 @@ body{
 
 }
 
-.side-nav a:hover{
+.side-nav a:hover {
 	color: white;
 }
 
@@ -101,4 +109,24 @@ body{
 	right: 25px;
 	font-size: 36px;
 	margin-left: 50px;
+}
+
+
+footer {
+	display: inline-block;
+	width: 100%;	
+}
+
+.footer--list{
+	display: inline-block;
+	width: 100%;
+	background-color: #018790;
+	padding: 5% 4%;
+}
+
+.footer--end{
+	font-weight: 700;
+	width: 100%;
+	background-color: #1B1919;
+	color: white;
 }
