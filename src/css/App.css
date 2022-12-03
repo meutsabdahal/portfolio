@@ -11,6 +11,7 @@ body {
 	margin: 0 auto;
 }
 
+/* navigation bar */
 .nav {
 	display: inline-block;
 	width: 100%;
@@ -75,6 +76,7 @@ body {
 	font-size: 20px;
 }
 
+/* responsive navigation bar */
 .side-nav {
 	height: 100%;
 	width: 0;
@@ -110,8 +112,84 @@ body {
 	font-size: 36px;
 	margin-left: 50px;
 }
+/* end of navigation bar */
 
+/* hero component */
+.intro{
+	display: flex;
+	margin-left: 5%;
+}
 
+.intro--image{
+	display: flex;
+	position: relative;
+}
+
+.intro--image img{
+	width: 80%;
+	height: 80%;
+	border-right: 20px solid #1b1919;
+}
+
+.intro--black--box{
+	position: absolute;
+	width: 60px;
+	height: 130px;
+	background-color: #1b1919;
+	left: -30px;
+	top: 30%;
+	z-index: 1;
+}
+
+.intro--description{
+	padding-top: 30%;
+}
+
+.intro--title{
+	position: relative;
+	margin: 0;
+	margin-bottom: 8px;
+	font-weight: 700;
+	font-size: xx-large;
+	letter-spacing: 1px;
+}
+
+.intro--title::after{
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	width: 13%;
+	border-bottom: 2px solid #1b1919;
+	left: 10%;
+}
+
+.intro--title::before{
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	width: 13%;
+	border-bottom: 2px solid #018790;
+}
+
+.about{
+	background-color: #1b1919;
+	display: inline-block;
+	color: white;
+	padding: 9px 25px;
+	border-radius: 17px;
+	margin-top: 5px;
+	transition: .5s;
+	text-decoration: none;
+}
+
+.about:hover{
+	text-decoration: none;
+	box-shadow: 0px 4px 20px #585858;
+}
+
+/* end of hero component */
+
+/* footer */
 footer {
 	display: inline-block;
 	width: 100%;	
@@ -130,3 +208,4 @@ footer {
 	background-color: #1B1919;
 	color: white;
 }
+/* end of footer */
